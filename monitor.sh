@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cvt  1024 768
+cvt  1440 900
 # 
 [ "$XDG_SESSION_TYPE" = x11 ] || exit 0
-xrandr --newmode "1024x768_100.00"  112.25  1024 1096 1200 1376  768 771 775 816 -hsync +vsync
-xrandr --addmode DisplayPort-0 1024x768_100.00
-xrandr --output DisplayPort-0 --mode 1024x768_100.00
+xrandr --newmode "1440x900_86.00"  159.00  1440 1544 1696 1952  900 903 909 948 -hsync +vsync
+xrandr --addmode HDMI-A-0 1440x900_86.00
+xrandr --output HDMI-A-0 --mode 1440x900_86.00
 
